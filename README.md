@@ -25,7 +25,7 @@ Logical contract version 1 and version2.
 3. deploy MainContractV1.sol.
 4. call upgradeTo(MainContractV1.address) to upgrade the contract to version 1.
 5. deploy MainContractV2.sol.
-4. call upgradeTo(MainContractV2.address) to upgrade the contract to version 2.
+6. call upgradeTo(MainContractV2.address) to upgrade the contract to version 2.
 
 ### Setup
 
