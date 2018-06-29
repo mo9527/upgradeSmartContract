@@ -9,7 +9,7 @@ Smart contracts for key-value storage and proxy delegate upgradability pattern.
 
 ### KeyValueStorage.sol
 
-A contract that can store all data for the main contract.
+A contract that can store up all data for the main contract.
 
 ### UpgradeProxy.sol
 
