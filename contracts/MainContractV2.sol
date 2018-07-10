@@ -9,6 +9,13 @@ contract MainContractV2 is StorageStateful {
 
     }
 
+    function getN() public view returns (uint256){
+        return _storage.getUint('n');
+    }
+
+    function setN(uint256 newN) public{
+        _storage.setUint('n', newN);
+    }
 
     function newSetFunction(uint256 n) public{
         _storage.setUint("newSet", n);

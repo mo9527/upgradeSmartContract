@@ -1,3 +1,4 @@
+
 var KeyValueStorage = artifacts.require("KeyValueStorage");
 var MainContract = artifacts.require("UpgradeProxy");
 var MainContractV1 = artifacts.require("MainContractV1");
@@ -7,7 +8,6 @@ var Web3 = require('web3');
 var web3 = new Web3();
 
 describe('Storage and upgradability example', async function () {
-
     // const keyValueStorage = '0xb0eb843e2bbcd9535b9ffcf6319e76c35c76e58e';
     const testAccount = '0xF59E7ccc2445f5641930E20DCb59115b4F0235D2';
 
@@ -63,6 +63,8 @@ describe('Storage and upgradability example', async function () {
         let v2NValue = await mainContract.newGetFunction();
         console.log('The newFunction result of version 2 :' + JSON.stringify(v2NValue));
 
+        let oldV1N = await mainContract.getN();
+        console.log('N of Version 1 value : '+oldV1N.toNumber());
 
 
     });
