@@ -8,7 +8,7 @@ var account = {
 var proxyAddr= '0xbffc95ce005a1c821e058134c4872170133038f0';
 var targetAddr = '0xa930d2d50dd32c48eb6d0cbafea74acff939a146';
 
-var mnemonic = 'torch hospital call alien alien render essay duck boat vivid blossom reject';
+var mnemonic = 'xxx';
 
 module.exports = {
     account,
